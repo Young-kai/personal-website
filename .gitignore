@@ -1,0 +1,21 @@
+# Local package and tool caches
+.npm-cache/
+.netlify/
+.agents/
+
+# Temporary working files
+tmp/
+*.tmp
+*.log
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/

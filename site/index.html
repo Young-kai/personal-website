@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>杨洋 · 个人学术主页</title>
+<meta name="description" content="杨洋，华南理工大学物理与光电学院博士后，研究方向：GHz锁模脉冲、超快光学测量、耗散孤子动力学。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500..700&amp;family=Noto+Serif+SC:wght@500..600&amp;family=Noto+Sans+SC:wght@400..700&amp;family=IBM+Plex+Mono:wght@400..500&amp;display=optional" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500..700&amp;family=Noto+Serif+SC:wght@500..600&amp;family=Noto+Sans+SC:wght@400..700&amp;family=IBM+Plex+Mono:wght@400..500&amp;display=optional" rel="stylesheet"></noscript>
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.classList.add('js-reveal');</script>
+</head>
+<body>
+<a class="skip-link" href="#main">跳转到主要内容</a>
+
+<!-- ===================== NAV ===================== -->
+<header class="site-nav" id="site-nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="#about" aria-label="ACADEMIC PROFILE">
+      <span class="brand-title" data-split-text="ACADEMIC PROFILE" aria-hidden="true">ACADEMIC PROFILE</span>
+    </a>
+
+    <nav class="nav-links" id="nav-links" aria-label="主导航">
+      <a href="#about" class="nav-link" data-nav>基本资料</a>
+      <a href="#works" class="nav-link" data-nav>工作经历</a>
+      <a href="#educations" class="nav-link" data-nav>教育经历</a>
+      <a href="#projects" class="nav-link" data-nav>项目经历</a>
+      <a href="#repre_articles" class="nav-link" data-nav>代表性文章</a>
+      <a href="#all_articles" class="nav-link" data-nav>完整文章列表</a>
+      <a href="#skill" class="nav-link" data-nav>专业技能</a>
+      <a href="#contact" class="nav-link" data-nav>联系方式</a>
+      <a class="nav-link nav-cv-link-mobile" href="assets/doc/yangyang-resume.pdf" download aria-label="Download CV / 下载简历" title="Download CV / 下载简历">简历下载</a>
+    </nav>
+
+    <div class="nav-actions">
+      <a class="btn btn-ghost btn-sm nav-cv-download" href="assets/doc/yangyang-resume.pdf" download aria-label="Download CV / 下载简历" title="Download CV / 下载简历">简历下载</a>
+      <button type="button" class="language-toggle" id="language-toggle" aria-label="Switch to English" title="English version">
+        <span aria-hidden="true">EN</span>
+      </button>
+      <button type="button" class="theme-toggle" id="theme-toggle" aria-label="切换深色/浅色主题" aria-pressed="false">
+        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><g class="rays"><line x1="12" y1="1.5" x2="12" y2="4.5"/><line x1="12" y1="19.5" x2="12" y2="22.5"/><line x1="1.5" y1="12" x2="4.5" y2="12"/><line x1="19.5" y1="12" x2="22.5" y2="12"/><line x1="4.4" y1="4.4" x2="6.5" y2="6.5"/><line x1="17.5" y1="17.5" x2="19.6" y2="19.6"/><line x1="4.4" y1="19.6" x2="6.5" y2="17.5"/><line x1="17.5" y1="6.5" x2="19.6" y2="4.4"/></g></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 1 1 9.5 3.5a7 7 0 0 0 11 11z"/></svg>
+      </button>
+      <button type="button" class="nav-burger" id="nav-burger" aria-label="打开菜单" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ===================== HERO / ABOUT ===================== -->
+  <section class="hero" id="about">
+    <div class="hero-galaxy" id="about-galaxy" aria-hidden="true"></div>
+    <div class="section-inner hero-grid">
+      <div class="hero-photo-wrap profile-card" data-galaxy-block data-reveal>
+        <img class="hero-photo" src="assets/img/profile-cartoon-transparent.png" alt="杨洋手绘肖像" width="720" height="960" fetchpriority="high" decoding="async">
+        <span class="profile-overlay">
+          <span class="profile-overlay-name">杨洋</span>
+          <span class="profile-overlay-role">这是我的学术主页，很高兴见到你！</span>
+        </span>
+      </div>
+
+      <div class="hero-body research-panel" data-galaxy-block data-reveal>
+        <h1 class="research-heading">博士后研究人员 · 超快光子学</h1>
+
+        <ul class="research-topics" aria-label="研究方向">
+          <li>GHz光纤激光器</li>
+          <li>实时超快光学测量</li>
+          <li>耗散孤子动力学</li>
+        </ul>
+
+        <dl class="research-stats" aria-label="学术成果统计">
+          <div class="stat-projects">
+            <dt>主持/核心参与项目</dt>
+            <dd class="mono"><a href="#projects" aria-label="查看3项主持或核心参与项目">3</a></dd>
+          </div>
+          <div>
+            <dt>文章条目</dt>
+            <dd class="mono"><a href="#all_articles" data-stat-filter="all" aria-label="查看全部19篇文章">19</a></dd>
+          </div>
+          <div>
+            <dt>一作/通讯条目</dt>
+            <dd class="mono"><a href="#all_articles" data-stat-filter="first" aria-label="查看8篇一作或通讯作者文章">8</a></dd>
+          </div>
+          <div>
+            <dt>代表性文章</dt>
+            <dd class="mono"><a href="#repre_articles" aria-label="查看3篇代表性文章">3</a></dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+
+    <div class="section-inner">
+      <div class="info-panel" data-galaxy-block data-reveal>
+        <h2 class="panel-title">基本信息</h2>
+        <dl class="info-grid">
+          <div class="info-item"><dt>姓名</dt><dd>杨洋</dd></div>
+          <div class="info-item"><dt>学历</dt><dd>博士</dd></div>
+          <div class="info-item"><dt>性别</dt><dd>男</dd></div>
+          <div class="info-item"><dt>政治面貌</dt><dd>中共党员</dd></div>
+          <div class="info-item"><dt>出生日期</dt><dd><time id="birth-date" datetime="1996-09-17">1996 / 09 / 17</time></dd></div>
+          <div class="info-item"><dt>年龄</dt><dd id="current-age">29</dd></div>
+          <div class="info-item"><dt>籍贯</dt><dd>重庆市开州区</dd></div>
+          <div class="info-item"><dt>电话</dt><dd>+86 15730625521</dd></div>
+          <div class="info-item"><dt>邮箱</dt><dd><a href="mailto:youngorin7@gmail.com">youngorin7@gmail.com</a></dd></div>
+          <div class="info-item"><dt>地址</dt><dd>广州市天河区五山路</dd></div>
+          <div class="info-item"><dt>期望岗位</dt><dd>教学/光电工程师/军队文职</dd></div>
+        </dl>
+
+        <h2 class="panel-title panel-title-spaced">关于我</h2>
+        <p class="about-text">
+          杨洋，理学博士，华南理工大学物理与光电学院在职博士后。主要研究方向为超快光纤光学、锁模脉冲参数调控及稳定产生。曾参与1项国家重大仪器研制项目；以第二核心研发人员参与申报广东省重点领域研发计划1项；2026年已提交国家自然科学基金青年科学基金（C类）申请。先后在 <em>Physical Review Letters</em>、<em>Light: Science &amp; Applications</em>、<em>Laser &amp; Photonics Reviews</em>、<em>APL Photonics</em> 等权威期刊发表学术论文<strong>17篇</strong>，其中第一作者 / 通讯作者论文<strong>7篇</strong>。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 工作经历 ===================== -->
+  <section class="section" id="works">
+    <div class="section-inner">
+      <h2 class="section-title" data-reveal><span class="section-num mono">工作经历</span></h2>
+
+      <ol class="timeline" data-reveal>
+        <li class="timeline-item">
+          <span class="timeline-node" aria-hidden="true"></span>
+          <p class="timeline-date mono">2025 / 09 — 至今</p>
+          <div class="timeline-content">
+            <h3 class="timeline-title">博士后 · 华南理工大学</h3>
+            <p class="timeline-sub">物理与光电学院 · 电子科学与技术</p>
+            <ul class="timeline-notes">
+              <li>职称：助理研究员（中级）</li>
+              <li>合作导师：韦小明 教授（青A/原国家杰青）</li>
+            </ul>
+          </div>
+          <span class="timeline-school-logo timeline-school-logo--scut" aria-hidden="true">
+            <img src="assets/img/education/scut-logo.png" alt="" width="698" height="698" loading="lazy" decoding="async">
+          </span>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===================== 教育经历 ===================== -->
+  <section class="section section-alt" id="educations">
+    <div class="section-inner">
+      <h2 class="section-title" data-reveal><span class="section-num mono">教育经历</span></h2>
+
+      <ol class="timeline" data-reveal>
+        <li class="timeline-item">
+          <span class="timeline-node" aria-hidden="true"></span>
+          <p class="timeline-date mono">2019 / 09 — 2025 / 06</p>
+          <div class="timeline-content">
+            <h3 class="timeline-title">博士 · 华南理工大学</h3>
+            <p class="timeline-sub">物理与光电学院 · 物理学 ｜ 理学博士</p>
+            <ul class="timeline-notes">
+              <li>硕博连读，导师：杨中民 教授（中国工程院院士）、韦小明 教授（青A）</li>
+              <li>2025届学院优秀博士毕业生（学院仅5个名额）</li>
+            </ul>
+          </div>
+          <span class="timeline-school-logo timeline-school-logo--scut" aria-hidden="true">
+            <img src="assets/img/education/scut-logo.png" alt="" width="698" height="698" loading="lazy" decoding="async">
+          </span>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-node" aria-hidden="true"></span>
+          <p class="timeline-date mono">2015 / 06 — 2019 / 09</p>
+          <div class="timeline-content">
+            <h3 class="timeline-title">本科 · 重庆理工大学</h3>
+            <p class="timeline-sub">电气与电子工程学院 · 光电信息科学与工程 ｜ 工学学士</p>
+            <ul class="timeline-notes">
+              <li>获2017年国家奖学金（学院仅5个名额）</li>
+            </ul>
+          </div>
+          <span class="timeline-school-logo timeline-school-logo--cqut" aria-hidden="true">
+            <img src="assets/img/education/cqut-logo.png" alt="" width="500" height="500" loading="lazy" decoding="async">
+          </span>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===================== 项目经历 (NEW) ===================== -->
+  <section class="section" id="projects">
+    <div class="section-inner">
+      <h2 class="section-title" data-reveal><span class="section-num mono">项目经历</span></h2>
+      <p class="section-lead" data-reveal>主要参与 / 申报的科研项目，按申报时间倒序排列。</p>
+
+      <div class="project-grid" data-reveal>
+
+        <article class="project-card">
+          <header class="project-head">
+            <h3 class="project-title">GHz基频锁模全光纤光频梳时频噪声特性与调控研究</h3>
+            <span class="badge badge-status badge-status-pending">评审结果待公示</span>
+          </header>
+          <p class="project-meta mono">国家自然科学基金 · 青年科学基金（C类） &nbsp;·&nbsp; 申报 2026 / 03 &nbsp;·&nbsp; <span class="project-role"><strong class="project-role-label">本人角色：</strong>主持</span></p>
+          <div class="project-body project-body-collapsible" id="project-summary-frequency-comb" hidden>
+            <p>构建融合多尺度动态增益的理论模型，厘清动态增益与孤子集体行为作用下的噪声产生机制；基于时空二元性与干涉仪原理，开发适用于GHz锁模脉冲的宽带噪声表征技术，完成模型验证和噪声诊断；结合器件色散调控、泵浦多维参数调控及腔外前馈技术，实现GHz全光纤光频梳的宽带噪声抑制与线宽调控，为低噪声、高可靠性GHz重频全光纤光频梳的研究提供理论与技术支撑。</p>
+          </div>
+          <button type="button" class="project-toggle" data-project-toggle aria-expanded="false" aria-controls="project-summary-frequency-comb">展开摘要</button>
+        </article>
+
+        <article class="project-card">
+          <header class="project-head">
+            <h3 class="project-title">多维超快激光检测关键技术与装备研发</h3>
+            <span class="badge badge-status badge-status-pending">进行中 · 2026/01-2028/12</span>
+          </header>
+          <p class="project-meta mono">广东省重点领域研发计划项目 &nbsp;·&nbsp; 申报 2025 / 11 &nbsp;·&nbsp; 项目主持：杨中民 院士</p>
+          <p class="project-meta project-role"><strong class="project-role-label">本人角色：</strong>主要研究开发人员（排第二），子课题「大动态范围实时光谱测量及多维融合」负责人</p>
+          <div class="project-body project-body-collapsible" id="project-summary-ultrafast" hidden>
+            <p>针对多维超快激光检测技术与装备在高端激光制造领域的重大需求，解决高重频飞秒激光稳定产生、高动态范围实时光谱信息获取、高分辨高刷新率空域信息获取、多维度信息融合测量技术实现和系统集成等方面的关键核心技术问题，突破时间、空间、频谱多维度超快激光技术瓶颈，实现多维超快激光装备系统集成。</p>
+          </div>
+          <button type="button" class="project-toggle" data-project-toggle aria-expanded="false" aria-controls="project-summary-ultrafast">展开摘要</button>
+        </article>
+
+        <article class="project-card">
+          <header class="project-head">
+            <h3 class="project-title">时空频三域融合全场信息实时连续超快测量系统</h3>
+            <span class="badge badge-status badge-status-done">已结题 · 2024/12</span>
+          </header>
+          <p class="project-meta mono">国家自然科学基金 · 国家重大科研仪器研制项目 &nbsp;·&nbsp; 申报 2019 / 01 &nbsp;·&nbsp; 项目主持：杨中民 院士</p>
+          <p class="project-meta project-role"><strong class="project-role-label">本人角色：</strong>研究开发人员（负责时频同步超快测量模块）</p>
+          <div class="project-body project-body-collapsible" id="project-summary-three-domain" hidden>
+            <p>超快激光可在实验室模拟多类跨尺度物理图景，重现极端条件物理现象。本项目提出高时间分辨率实时连续成像新原理，实现时域分辨率≤50fs的实时连续测量；提出时空全息新技术，实现时空域全场信息同步实时测量；提出频域高分辨实时成像新技术，实现频域分辨率≤1pm实时测量。开发出时空频同步、刷新率≥20亿赫兹的实时连续超快测量系统，开展激光动力学和爆轰物理测量研究。</p>
+          </div>
+          <button type="button" class="project-toggle" data-project-toggle aria-expanded="false" aria-controls="project-summary-three-domain">展开摘要</button>
+        </article>
+
+      </div>
+
+      <div class="award-strip" data-reveal>
+        <h3 class="award-strip-title">竞赛项目</h3>
+        <ul class="award-list">
+          <li class="award-item">
+            <span class="badge badge-tier">国家级</span>
+            <span class="award-text">第七届中国国际「互联网+」大学生创新创业大赛总决赛 · <strong>银奖</strong></span>
+            <span class="award-date mono">2021/10</span>
+          </li>
+          <li class="award-item">
+            <span class="badge badge-tier">国家级</span>
+            <span class="award-text">第十七届「挑战杯」广东大学生课外学术科技作品竞赛 · <strong>一等奖</strong></span>
+            <span class="award-date mono">2022/03</span>
+          </li>
+          <li class="award-item">
+            <span class="badge badge-tier badge-tier-provincial">省部级</span>
+            <span class="award-text">广东省「攀登计划」重点计划 · 资助金额 6万元</span>
+            <span class="award-date mono">2022/12</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 代表性文章及其简介 ===================== -->
+  <section class="section" id="repre_articles">
+    <div class="section-inner">
+      <h2 class="section-title" data-reveal><span class="section-num mono">代表性文章及其简介</span></h2>
+
+      <div class="feature-grid" data-reveal>
+        <article class="feature-card">
+          <span class="badge badge-tier-pub">中科院1区 TOP</span>
+          <p class="feature-journal mono">Physical Review Letters · 134(21), 213803 · 2025.5</p>
+          <h3 class="feature-title"><a href="https://doi.org/10.1103/x3sy-gf7l" target="_blank" rel="noopener noreferrer">Polarization symmetry breaking of GHz dissipative solitons</a></h3>
+          <p class="feature-desc">基于耦合的广义非线性薛定谔方程，建立了超短线性腔激光器双向传输的四光场耦合模型。为表征GHz矢量光脉冲的偏振演化动力学，开发了完备斯托克斯测量技术，该技术具有~0.04&nbsp;nm的实时光谱分辨率。</p>
+        </article>
+
+        <article class="feature-card">
+          <span class="badge badge-tier-pub">中科院1区 TOP</span>
+          <p class="feature-journal mono">Laser &amp; Photonics Reviews · 20(3), e00912 · 2026.2</p>
+          <h3 class="feature-title"><a href="https://doi.org/10.1002/lpor.202500912" target="_blank" rel="noopener noreferrer">Collective dynamics of GHz dissipative solitons</a></h3>
+          <p class="feature-desc">开发了GHz脉冲时域和频域同时测量的时间透镜技术（全光纤结构），该技术具有~766&nbsp;fs时域分辨率、~0.43&nbsp;nm的光谱分辨率。基于该技术探测了GHz锁模脉冲中的瞬态现象，揭示了耦合增益动力学对GHz孤子集体现象的影响。</p>
+        </article>
+
+        <article class="feature-card">
+          <span class="badge badge-tier-pub badge-tier-pub-outline">中科院1区</span>
+          <p class="feature-journal mono">APL Photonics · 9(3), 031305 · 2024.3</p>
+          <h3 class="feature-title"><a href="https://doi.org/10.1063/5.0196407" target="_blank" rel="noopener noreferrer">Phase-encoding of loosely bound soliton molecules</a></h3>
+          <p class="feature-desc">利用马赫-增德尔干涉仪（MZI）结合色散时域拉伸技术，研究了弱束缚孤子分子动态增益实时演化；利用这种孤子分子连续发散的相位演化特征，实现了相位编码应用演示。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 完整文章列表 ===================== -->
+  <section class="section section-alt" id="all_articles">
+    <div class="section-inner">
+      <h2 class="section-title" data-reveal><span class="section-num mono">完整文章列表</span></h2>
+      <p class="section-lead publication-if-note" data-reveal>（IF 选取文章发表对应年份的数据）</p>
+
+      <div class="filter-row" data-reveal role="group" aria-label="按作者身份筛选文章">
+        <button type="button" class="filter-chip is-active" data-filter="all" aria-pressed="true">全部 · 19</button>
+        <button type="button" class="filter-chip" data-filter="first" aria-pressed="false">一作 / 通讯 · 8</button>
+        <button type="button" class="filter-chip" data-filter="other" aria-pressed="false">其它 · 11</button>
+      </div>
+
+      <ol class="pub-list" data-reveal>
+
+        <!-- 一作/通讯 -->
+        <li class="pub-row" data-group="first">
+          <span class="pub-index mono">01</span>
+          <div class="pub-main">
+            <p class="pub-authors"><strong>Yang, Y.</strong><sup>†</sup>, Chen, X.<sup>†</sup>, Lin, W.<sup>†</sup>, Hu, X., Xu, H., Ma, Y., Liang, Z., Ling, L., Xiong, Z., Guo, Y., Liu, T., Wei, X.*, &amp; Yang, Z.* (2025)</p>
+            <p class="pub-title"><a href="https://doi.org/10.1103/x3sy-gf7l" target="_blank" rel="noopener noreferrer">Polarization symmetry breaking of GHz dissipative solitons</a></p>
+            <p class="pub-venue mono">Physical Review Letters, 134(21), 213803</p>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-tier-pub">1区 TOP</span>
+            <span class="badge badge-if mono">IF 9</span>
+          </div>
+        </li>
+
+        <li class="pub-row" data-group="first">
+          <span class="pub-index mono">02</span>
+          <div class="pub-main">
+            <p class="pub-authors"><strong>Yang, Y.</strong><sup>†</sup>, Lin, W.<sup>†</sup>, Hu, X.<sup>†</sup>, Chen, X., Xu, H., Ma, Y., Xiong, Z., He, P., Wu, Y., Wei, X.*, &amp; Yang, Z.* (2026)</p>
+            <p class="pub-title"><a href="https://doi.org/10.1002/lpor.202500912" target="_blank" rel="noopener noreferrer">Collective dynamics of GHz dissipative solitons</a></p>
+            <p class="pub-venue mono">Laser &amp; Photonics Reviews, 20(3), e00912</p>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-tier-pub">1区 TOP</span>
+            <span class="badge badge-if mono">IF 10</span>
+          </div>
+        </li>
+
+        <li class="pub-row" data-group="first">
+          <span class="pub-index mono">03</span>
+          <div class="pub-main">
+            <p class="pub-authors"><strong>Yang, Y.</strong>, Lin, W., Guo, Y., Hu, X., Xu, H., Chen, D., Wei, X., &amp; Yang, Z. (2024)</p>
+            <p class="pub-title"><a href="https://doi.org/10.1063/5.0196407" target="_blank" rel="noopener noreferrer">Phase-encoding of loosely bound soliton molecules</a></p>
+            <p class="pub-venue mono">APL Photonics, 9(3), 031305</p>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-tier-pub badge-tier-pub-outline">1区</span>
+            <span class="badge badge-if mono">IF 5.3</span>
+          </div>
+        </li>
+
+        <li class="pub-row" data-group="first">
+          <span class="pub-index mono">04</span>
+          <div class="pub-main">
+            <p class="pub-authors">Ling, L.<sup>†</sup>, <strong>Yang, Y.</strong><sup>†</sup>, Lin, W., Liang, Z., Chen, X., Wei, X., &amp; Yang, Z. (2026)</p>
+            <p class="pub-title"><a href="https://doi.org/10.1109/JSTQE.2025.3624360" target="_blank" rel="noopener noreferrer">Dynamics of asynchronous dichromatic dissipative solitons in a GHz-repetition-rate mode-locked fiber laser</a></p>
+            <p class="pub-venue mono">IEEE Journal of Selected Topics in Quantum Electronics, 32(5), 1–8</p>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-tier-pub badge-tier-pub-outline">2区</span>
+            <span class="badge badge-if mono">IF 5.1</span>
+          </div>
+        </li>
+
+        <li class="pub-row" data-group="first">
+          <span class="pub-index mono">05</span>
+          <div class="pub-main">
+            <p class="pub-authors">Wen, X.<sup>†</sup>, <strong>Yang, Y.</strong><sup>†</sup>, Lin, W.<sup>†</sup>, Chen, X., Ma, Y., Wang, W.*, Hu, X., Wei, X.*, &amp; Yang, Z.* (2026)</p>
+            <p class="pub-title">Full-field dynamics of fiber optical parametric oscillator in real time: from soliton chaos to stochasticity</p>
+            <p class="pub-venue mono">Light: Science &amp; Applications · accepted (in press)</p>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-tier-pub">1区 TOP</span>
+            <span class="badge badge-if mono">IF 24</span>
+          </div>
+        </li>
+
+        <li class="pub-row" data-group="first">
+          <span class="pub-index mono">06</span>
+          <div class="pub-main">
+            <p class="pub-authors">Xiong, Z.<sup>†</sup>, Lin, W.<sup>†</sup>, Liang, Y., Guo, Y.*, <strong>Yang, Y.*</strong>, Wei, X.* (2026)</p>
+            <p class="pub-title"><a href="https://opg.optica.org/ol/abstract.cfm?uri=ol-51-10-2940" target="_blank" rel="noopener noreferrer">Spatio-spectral coupling in spatio-temporally mode-locked fiber laser</a></p>
+            <p class="pub-venue mono">Optics Letters, 51(10), 2940–2943</p>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-tier-pub badge-tier-pub-outline">2区</span>
+            <span class="badge badge-if mono">IF 3.3</span>
+          </div>
+        </li>
+
+        <li class="pub-row" data-group="first">
+          <span class="pub-index mono">07</span>
+          <div class="pub-main">
+            <p class="pub-authors">Ma, Y.<sup>†</sup>, He, P.<sup>†</sup>, Lin, W., Wen, X.*, Hu, X., Xu, H., Chen, X., Xiong, Z., <strong>Yang, Y.*</strong>, Wei, X.* &amp; Yang, Z. (2026)</p>
+            <p class="pub-title"><a href="https://doi.org/10.1002/lpor.71469" target="_blank" rel="noopener noreferrer">Asynchronous energy and polarization dynamics of symmetry-broken GHz dissipative solitons</a></p>
+            <p class="pub-venue mono">Laser &amp; Photonics Reviews, e71469</p>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-tier-pub">1区 TOP</span>
+            <span class="badge badge-if mono">IF 9.7</span>
+          </div>
+        </li>
+
+        <li class="pub-row" data-group="first">
+          <span class="pub-index mono">08</span>
+          <div class="pub-main">
+            <p class="pub-authors">Xiong, Z.<sup>†</sup>, Lin, W.<sup>†</sup>, <strong>Yang, Y.*</strong>, Guo, Y.*, Wei, X. &amp; Yang, Z. (2026)</p>
+            <p class="pub-title">Mechanisms of spatiotemporal mode-locking in all-step-index multimode fiber laser based on multimode rate equation</p>
+            <p class="pub-venue mono">Laser &amp; Photonics Reviews · under review</p>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-tier-pub">1区 TOP</span>
+            <span class="badge badge-if mono">IF 9.7</span>
+          </div>
+        </li>
+
+        <!-- 其它 -->
+        <li class="pub-row" data-group="other">
+          <span class="pub-index mono">09</span>
+          <div class="pub-main">
+            <p class="pub-authors">Dong, J., <strong>Yang, Y.</strong>, Zeng, Y., Xu, Y., Xu, O., Fu, S., &amp; Qin, Y.* (2024)</p>
+            <p class="pub-title"><a href="https://www.sciencedirect.com/science/article/pii/S0143816624000149" target="_blank" rel="noopener noreferrer">Real-time spectroscopy of modulation-instability-mediated optical wave breaking in normal dispersion</a></p>
+            <p class="pub-venue mono">Optics and Lasers in Engineering, 175, 108034</p>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-tier-pub badge-tier-pub-outline">2区</span>
+            <span class="badge badge-if mono">IF 3.3</span>
+          </div>
+        </li>
+
+        <li class="pub-row" data-group="other">
+          <span class="pub-index mono">10</span>
+          <div class="pub-main">
+            <p class="pub-authors">Chen, X.<sup>†</sup>, Lin, W.<sup>†</sup>, <strong>Yang, Y.</strong>, Liang, Z., Hu, X., Wang, W., Ling, L., Guo, Y., Chen, D., Wei, X.*, &amp; Yang, Z.* (2025)</p>
+            <p class="pub-title"><a href="https://opg.optica.org/oe/abstract.cfm?uri=oe-33-4-8129" target="_blank" rel="noopener noreferrer">Manipulating polarization dynamics of temporal solitons in a 20-GHz micro fiber Fabry-Pérot laser</a></p>
+            <p class="pub-venue mono">Optics Express, 33(4), 8129</p>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-tier-pub badge-tier-pub-outline">2区</span>
+            <span class="badge badge-if mono">IF 3.3</span>
+          </div>
+        </li>
+
+        <li class="pub-row" data-group="other">
+          <span class="pub-index mono">11</span>
+          <div class="pub-main">
+            <p class="pub-authors">Xu, H.<sup>†</sup>, Lin, W.<sup>†</sup>, Hu, X.<sup>†</sup>, <strong>Yang, Y.</strong>, Li, Z., Xu, Y., Guo, Y., Chen, D., Wei, X.*, &amp; Yang, Z.* (2024)</p>
+            <p class="pub-title"><a href="https://opg.optica.org/col/abstract.cfm?uri=col-22-11-111903" target="_blank" rel="noopener noreferrer">Real-time birth-to-annihilation dynamics of dissipative Kerr cavity soliton</a></p>
+            <p class="pub-venue mono">Chinese Optics Letters, 22(11), 111903</p>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-tier-pub badge-tier-pub-outline">2区</span>
+            <span class="badge badge-if mono">IF 2.8</span>
+          </div>
+        </li>
+
+        <li class="pub-row" data-group="other">
+          <span class="pub-index mono">12</span>
+          <div class="pub-main">
+            <p class="pub-authors">Wu, J.<sup>†</sup>, Liang, Z.<sup>†</sup>, Lin, W., Ling, L., Zhang, Y., <strong>Yang, Y.</strong>, Wei, X.*, &amp; Yang, Z.* (2023)</p>
+            <p class="pub-title"><a href="https://doi.org/10.1109/JLT.2022.3223506" target="_blank" rel="noopener noreferrer">All-fiber high-power 3 GHz ultrafast laser system at 2.0 μm</a></p>
+            <p class="pub-venue mono">Journal of Lightwave Technology, 41(5), 1559–1565</p>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-tier-pub badge-tier-pub-outline">1区</span>
+            <span class="badge badge-if mono">IF 4.7</span>
+          </div>
+        </li>
+
+        <li class="pub-row" data-group="other">
+          <span class="pub-index mono">13</span>
+          <div class="pub-main">
+            <p class="pub-authors">Chen, X.<sup>†</sup>, Lin, W.<sup>†</sup>, Hu, X., Wang, W., Liang, Z., Ling, L., <strong>Yang, Y.</strong>, Guo, Y., Liu, T., Chen, D., Wei, X.*, &amp; Yang, Z.* (2024)</p>
+            <p class="pub-title"><a href="https://www.nature.com/articles/s41377-024-01613-z" target="_blank" rel="noopener noreferrer">Dynamic gain driven mode-locking in GHz fiber laser</a></p>
+            <p class="pub-venue mono">Light: Science &amp; Applications, 13(1)</p>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-tier-pub">1区 TOP</span>
+            <span class="badge badge-if mono">IF 20.6</span>
+          </div>
+        </li>
+
+        <li class="pub-row" data-group="other">
+          <span class="pub-index mono">14</span>
+          <div class="pub-main">
+            <p class="pub-authors">Ling, L.<sup>†</sup>, Lin, W.<sup>†</sup>, Liang, Z.<sup>†</sup>, Pan, M., Wei, C., Chen, X., <strong>Yang, Y.</strong>, Xiong, Z., Guo, Y., Wei, X.*, &amp; Yang, Z.* (2025)</p>
+            <p class="pub-title"><a href="https://www.nature.com/articles/s41377-025-01811-3" target="_blank" rel="noopener noreferrer">Practical GHz single-cavity all-fiber dual-comb laser for high-speed spectroscopy</a></p>
+            <p class="pub-venue mono">Light: Science &amp; Applications, 14(1)</p>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-tier-pub">1区 TOP</span>
+            <span class="badge badge-if mono">IF 23.4</span>
+          </div>
+        </li>
+
+        <li class="pub-row" data-group="other">
+          <span class="pub-index mono">15</span>
+          <div class="pub-main">
+            <p class="pub-authors">Xu, H., Huang, Y., Chen, X., Lin, W., Li, Y., Hu, X., Fan, Y., <strong>Yang, Y.</strong>, Wei, C., Li, Z., Chen, L., Ma, Z., Wei, X.*, &amp; Yang, Z.* (2023)</p>
+            <p class="pub-title"><a href="https://doi.org/10.1063/5.0171770" target="_blank" rel="noopener noreferrer">Suppression of polarization instability in ultrashort Fabry–Pérot fiber laser</a></p>
+            <p class="pub-venue mono">Applied Physics Letters, 123(17)</p>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-tier-pub badge-tier-pub-outline">2区</span>
+            <span class="badge badge-if mono">IF 3.6</span>
+          </div>
+        </li>
+
+        <li class="pub-row" data-group="other">
+          <span class="pub-index mono">16</span>
+          <div class="pub-main">
+            <p class="pub-authors">Xiu, H.<sup>†</sup>, Wang, T.<sup>†</sup>, Lin, W.<sup>†</sup>, Wen, J., <strong>Yang, Y.</strong>, Liu, Y., Wang, W., Wei, X.*, &amp; Yang, Z.* (2026)</p>
+            <p class="pub-title"><a href="https://doi.org/10.1109/LPT.2026.3658736" target="_blank" rel="noopener noreferrer">Gain-Managed Nonlinear amplification in a 97.7-MHz dissipative soliton figure-9 fiber laser</a></p>
+            <p class="pub-venue mono">IEEE Photonics Technology Letters, 38(10), 679–682</p>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-tier-pub badge-tier-pub-outline">3区</span>
+            <span class="badge badge-if mono">IF 2.5</span>
+          </div>
+        </li>
+
+        <li class="pub-row" data-group="other">
+          <span class="pub-index mono">17</span>
+          <div class="pub-main">
+            <p class="pub-authors">Wang, T.<sup>†</sup>, Xiu, H.<sup>†</sup>, He, P.<sup>†</sup>, Lin, W., <strong>Yang, Y.</strong>, Dong, J.*, Huang, J., Cao, W., Yang, J., Peng, X., Wang, W.*, Liu, Y., &amp; Wei, X. (2026)</p>
+            <p class="pub-title"><a href="https://opg.optica.org/oe/abstract.cfm?uri=oe-34-4-7085" target="_blank" rel="noopener noreferrer">Real-time characterization of coherence degradation in a rod-type fiber high-power chirped-pulse amplifier</a></p>
+            <p class="pub-venue mono">Optics Express, 34(4), 7085</p>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-tier-pub badge-tier-pub-outline">2区</span>
+            <span class="badge badge-if mono">IF 3.3</span>
+          </div>
+        </li>
+
+        <li class="pub-row" data-group="other">
+          <span class="pub-index mono">18</span>
+          <div class="pub-main">
+            <p class="pub-authors">朱喆, 王麓屹, 陈学文, 林巍, <strong>杨洋</strong>, 张静*, 刘涛, 韦小明*, 杨中民 (2024)</p>
+            <p class="pub-title"><a href="https://doi.org/10.3788/AOS231583" target="_blank" rel="noopener noreferrer">窄谱被动锁模光纤激光中心波长高速调谐及其脉冲重建过程</a></p>
+            <p class="pub-venue mono">Acta Optica Sinica, 44(5), 0514001</p>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-tier-pub badge-tier-pub-outline">2区</span>
+            <span class="badge badge-if mono">IF 1.6</span>
+          </div>
+        </li>
+
+        <li class="pub-row" data-group="other">
+          <span class="pub-index mono">19</span>
+          <div class="pub-main">
+            <p class="pub-authors">Xiong, Z.<sup>†</sup>, Guo, Y.<sup>†</sup>, Lin, W.<sup>†</sup>, Wu, Y., Ma, Y., <strong>Yang, Y.</strong>, Liu, T., Wei, X.* &amp; Yang, Z.* (2026)</p>
+            <p class="pub-title">Harnessing spatiotemporal soliton molecule by analogous scattering resonance</p>
+            <p class="pub-venue mono">Optica · under review</p>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-tier-pub">1区 TOP</span>
+            <span class="badge badge-if mono">IF 8.8</span>
+          </div>
+        </li>
+
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===================== 专业技能 ===================== -->
+  <section class="section section-alt" id="skill">
+    <div class="section-inner">
+      <h2 class="section-title" data-reveal><span class="section-num mono">专业技能</span></h2>
+
+      <div class="skill-groups" data-reveal>
+        <div class="skill-group">
+          <h3 class="skill-group-title">语言与证书</h3>
+          <ul class="chip-list">
+            <li class="chip">国家计算机二级（C语言）</li>
+            <li class="chip">英语 CET-6</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3 class="skill-group-title">编程与数据处理</h3>
+          <ul class="chip-list">
+            <li class="chip">Python (PyCharm/VScode)</li>
+            <li class="chip">MATLAB</li>
+            <li class="chip">数据处理与分析</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3 class="skill-group-title">硬件</h3>
+          <ul class="chip-list">
+            <li class="chip">FPGA（Verilog）</li>
+            <li class="chip">高速数据采集</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 联系我 ===================== -->
+  <section class="section" id="contact">
+    <div class="section-inner">
+      <h2 class="section-title" data-reveal><span class="section-num mono">联系我</span></h2>
+
+      <div class="contact-grid" data-reveal>
+        <form class="contact-form" id="contact-form" novalidate>
+          <p class="form-note">邮件联系我</p>
+
+          <!-- honeypot: hidden from real users and assistive tech, catches bots -->
+          <div class="hp-field" aria-hidden="true">
+            <label for="hp-website">Do not fill this out</label>
+            <input type="text" id="hp-website" name="website" tabindex="-1" autocomplete="off">
+          </div>
+
+          <div class="form-row">
+            <label for="cf-email">您的邮箱</label>
+            <input type="email" id="cf-email" name="email" required autocomplete="email">
+          </div>
+          <div class="form-row">
+            <label for="cf-message">留言</label>
+            <textarea id="cf-message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">发送留言</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+
+        <div class="contact-info">
+          <ul class="contact-list">
+            <li>
+              <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.69 2.8a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.33 1.84.56 2.8.69A2 2 0 0 1 22 16.92Z"/></svg>
+              <span class="contact-label mono">电话</span><span>+86 15730625521</span>
+            </li>
+            <li>
+              <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              <span class="contact-label mono">邮箱</span>
+              <span class="contact-value-stack">
+                <a href="mailto:youngorin7@gmail.com">youngorin7@gmail.com</a>
+                <a href="mailto:yang_yangat@hotmail.com">yang_yangat@hotmail.com</a>
+              </span>
+            </li>
+            <li>
+              <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+              <span class="contact-label mono">地址</span><span>广州市天河区五山路</span>
+            </li>
+            <li>
+              <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a8 8 0 0 1-8 8H7l-4 2 1.4-4.2A8 8 0 1 1 21 12Z"/><path d="M8 12h.01M12 12h.01M16 12h.01"/></svg>
+              <span class="contact-label mono">QQ</span><span>3149538522</span>
+            </li>
+            <li>
+              <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8A8.5 8.5 0 0 1 12.5 20a8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7A8.38 8.38 0 0 1 4 11.5 8.5 8.5 0 0 1 8.7 3.9a8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5Z"/><path d="M9 8.5c.4 2.7 2.8 5.1 5.5 5.5"/></svg>
+              <span class="contact-label mono">WhatsApp</span><span>@OrinYoung</span>
+            </li>
+            <li>
+              <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21.5Z"/><path d="M4 5.5v16M8 7h8M8 11h6"/></svg>
+              <span class="contact-label mono">小红书</span><span>42868297147</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer">
+  <div class="section-inner footer-inner">
+    <p>Copyright 2020-2030 OrinYoung All Rights Reserved</p>
+    <div class="footer-actions">
+      <a href="#about" class="footer-top">回到顶部 ↑</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/i18n.js" defer></script>
+<script src="js/main.js" defer></script>
+<script src="js/hero-galaxy.js" defer></script>
+<script src="js/click-bloom.js" defer></script>
+</body>
+</html>
